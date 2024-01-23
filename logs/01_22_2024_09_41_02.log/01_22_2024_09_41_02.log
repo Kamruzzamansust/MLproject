@@ -1,0 +1,11 @@
+[ 2024-01-22 09:41:02,369 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-22 09:41:02,379 ] 96 werkzeug - INFO -  * Debugger PIN: 130-348-569
+[ 2024-01-22 09:41:21,420 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:41:21] "GET / HTTP/1.1" 200 -
+[ 2024-01-22 09:42:17,875 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:42:17] "[33mGET /predict_data HTTP/1.1[0m" 404 -
+[ 2024-01-22 09:42:29,659 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:42:29] "GET /predictdata HTTP/1.1" 200 -
+[ 2024-01-22 09:43:05,363 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:43:05] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-01-22 09:43:05,530 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:43:05] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2024-01-22 09:43:05,565 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:43:05] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2024-01-22 09:43:05,665 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:43:05] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2024-01-22 09:43:05,691 ] 96 werkzeug - INFO - 127.0.0.1 - - [22/Jan/2024 09:43:05] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-01-22 09:47:10,328 ] 96 werkzeug - INFO -  * Detected change in 'f:\\mydatascience\\mlproject\\src\\pipeline\\predict_pipeline.py', reloading
